@@ -2,6 +2,23 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+.logo img{
+    display: inline-block;
+    margin-right: 5%;
+}
+.links{
+    display: inline-block;
+}
+.links a{
+margin: 45px 45px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+margin-bottom: 2%;   
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -79,6 +96,68 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.about-page{
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.container-1{
+    display: flex;
+    width: 50%;
+}
+
+.container-2{
+    display: flex;
+    width: 50%;
+}
+
+.button {
+    display: inline-block;
+    width: 100px;
+    padding: 1%;
+    border-radius: 10px;
+    color:black;
+}
+
+.box-1 {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+    .box-2 {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.box-3{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-bottom: 1px dashed black;
+}
+
+.box-4{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-bottom: 1px dashed black;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -104,7 +183,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -121,7 +200,36 @@ p {
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
+.boxes :nth-child(1){
+    background: teal;
+}
+.boxes :nth-child(2){
+    background: gold
+}
+.boxes :nth-child(3){
+    background: cadetblue;
+}
+.boxes :nth-child(4){
+    background: coral;
+}
+.boxes :nth-child(5){
+    background: crimson;
+}
+.boxes :nth-child(6){
+    background: forestgreen;
+}
+.boxes :nth-child(7){
+    background: darkorchid;
+}
+.boxes :nth-child(8){
+    background: hotpink;
+}
+.boxes :nth-child(9){
+    background: indigo;
+}
+.boxes :nth-child(10){
+    background: dodgerblue;
+}
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
